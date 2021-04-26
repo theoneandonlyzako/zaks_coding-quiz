@@ -19,13 +19,17 @@ font-family: sans-serif;
 font-size: 250%;
 }
 
-.question {
+#question {
     color: var(--secondary-color);
     text-shadow: .5px .5px white;
     text-align: center;
     font-size: xx-large;
     font-family: sans-serif;
     padding: 10%;
+}
+
+#question-container {
+    display: none;
 }
 
 .container {
